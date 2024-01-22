@@ -52,6 +52,13 @@ const Rapidscat = () => {
       <section className="bg-primary text-white py-20">
         <div className="container ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+          <div data-aos="zoom-in">
+              <img
+                src={satelitImg}
+                alt=""
+                className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover"
+              />
+            </div>
             <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800 ">
               <p
                 data-aos="fade-up"
@@ -83,13 +90,7 @@ const Rapidscat = () => {
                 View All
               </button>
             </div>
-            <div data-aos="zoom-in">
-              <img
-                src={satelitImg}
-                alt=""
-                className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover"
-              />
-            </div>
+            
           </div>
         </div>
       </section>

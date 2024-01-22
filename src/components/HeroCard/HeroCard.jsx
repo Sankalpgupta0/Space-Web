@@ -32,6 +32,9 @@ const ServiceData = [
 const HeroCard = () => {
   return (
     <>
+      <div className="sm:hidden h-5 w-screen bg-primary">
+
+      </div>
       <section className="bg-primary">
         <div className="container">
           <div className="min-h-[400px]">
